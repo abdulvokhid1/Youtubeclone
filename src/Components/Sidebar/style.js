@@ -6,7 +6,10 @@ const Container = styled.div`
   height: 100vh;
   background: #212121;
   flex: 2;
-  height: 1500px;
+  height: 1650px;
+  position: sticky;
+  left: 0;
+  top: 0;
 `;
 const Wrapper = styled.div`
   display: flex;
