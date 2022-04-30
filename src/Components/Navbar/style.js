@@ -65,4 +65,19 @@ const Button = styled.div`
   transition: all 0.5s;
   cursor: pointer;
 `;
-export { Button, Container, Wrapper, InputFlexing, Input, Search };
+const NavIcons = styled.img`
+  margin-right: 25px;
+`;
+const NavImg = styled.img`
+  margin-right: 10px;
+`;
+export {
+  NavIcons,
+  NavImg,
+  Button,
+  Container,
+  Wrapper,
+  InputFlexing,
+  Input,
+  Search,
+};

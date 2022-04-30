@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { data } from "../../mock/body";
 import { dataBtn } from "../../mock/btn";
+import { navpart } from "../../mock/navbar";
 import { ChooseCreateContext } from "../Context/Choose";
 import { MovieCreateContex } from "../Context/search";
 import {
@@ -8,6 +9,8 @@ import {
   Container,
   Input,
   InputFlexing,
+  NavIcons,
+  NavImg,
   Search,
   Wrapper,
 } from "./style";
@@ -30,6 +33,14 @@ export const Navbar = () => {
           <Input onChange={InputSearch} type="text" placeholder="search" />
           <Search />
         </InputFlexing>
+        {navpart.map((value) => {
+          return (
+            <div key={value.id}>
+              <NavIcons src={value.icon} />
+              <NavImg src={value.img} />
+            </div>
+          );
+        })}
       </Wrapper>
       <Wrapper btn>
         {dataBtn.map((value) => {

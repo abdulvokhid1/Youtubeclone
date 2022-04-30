@@ -4,28 +4,24 @@ const Container = styled.div`
   width: 100%;
   background: #000000;
   display: flex;
-  margin: auto;
   height: 1510px;
-  /* height: 100vh; */
   flex-wrap: wrap;
-  margin: auto;
+  /* margin: auto; */
 `;
 const Card = styled.div`
+  /* flex-direction: column; */
   width: 300px;
-  height: 300px;
+  height: 400px;
   background: #000000;
   margin-left: 10px;
   /* margin: 20px; */
-  margin: auto;
+  /* margin: auto; */
 `;
 const Img = styled.img`
   width: 300px;
-  height: 270px;
+  height: 340px;
   /* transition: all 5s; */
-  :hover {
-    width: 295px;
-    height: 265px;
-  }
+
   cursor: pointer;
 `;
 const Title = styled.div`

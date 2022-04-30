@@ -10,7 +10,7 @@ export const Body = () => {
   useEffect(() => {
     const newData = data.filter((value) => value.category == header);
     setlists(newData);
-  });
+  }, []);
   return (
     <Container>
       {lists.map((value) => {
