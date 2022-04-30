@@ -55,11 +55,11 @@ export const list = [
     icon: like,
     title: "Beğendiğim videolar",
   },
-  {
-    id: 9,
-    icon: under,
-    title: "Daha fazla göster",
-  },
+  // {
+  //   id: 9,
+  //   icon: under,
+  //   title: "Daha fazla göster",
+  // },
 ];
 export const imglist = [
   {
@@ -97,9 +97,9 @@ export const imglist = [
     img: vlogger,
     title: "Vlogger Man",
   },
-  {
-    id: 8,
-    img: under,
-    title: "Daha fazla göster",
-  },
+  // {
+  //   id: 8,
+  //   img: under,
+  //   title: "Daha fazla göster",
+  // },
 ];

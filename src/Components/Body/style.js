@@ -18,8 +18,14 @@ const Card = styled.div`
   margin: auto;
 `;
 const Img = styled.img`
-  width: 100%;
-  height: 90%;
+  width: 300px;
+  height: 270px;
+  /* transition: all 5s; */
+  :hover {
+    width: 295px;
+    height: 265px;
+  }
+  cursor: pointer;
 `;
 const Title = styled.div`
   font-family: "Roboto";
@@ -28,6 +34,11 @@ const Title = styled.div`
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
+  :hover {
+    color: blue;
+    font-size: 18px;
+    line-height: 25px;
+  }
 `;
 
 export { Container, Card, Img, Title };

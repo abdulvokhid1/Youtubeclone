@@ -7,17 +7,17 @@ import { Card, Container, Img, Title } from "./style";
 export const Body = () => {
   const [lists, setlists] = useContext(MovieCreateContex);
   const [header, setHeader] = useContext(ChooseCreateContext);
-  useEffect(() => {
-    const newData = data.filter((value) => value.category == header);
-    setlists(newData);
-  }, []);
+  // useEffect(() => {
+  //   const newData = data.filter((value) => value.category == header);
+  //   setlists(newData);
+  // }, []);
   return (
     <Container>
       {lists.map((value) => {
         return (
           <Card key={value.id}>
             <Img src={value.url} />
-            <Title>{value.title}</Title>
+            <Title>{value.name}</Title>
           </Card>
         );
       })}

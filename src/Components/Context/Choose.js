@@ -3,7 +3,7 @@ import { dataBtn } from "../../mock/btn";
 
 export const ChooseCreateContext = createContext();
 export const ChooseContext = ({ children }) => {
-  const [headerName, setHeaderName] = useState("Film");
+  const [headerName, setHeaderName] = useState();
   return (
     <ChooseCreateContext.Provider value={[headerName, setHeaderName]}>
       {children}

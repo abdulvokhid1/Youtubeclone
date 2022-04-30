@@ -18,7 +18,7 @@ export const Navbar = () => {
 
   const InputSearch = (e) => {
     const newData = data.filter((value) =>
-      value.title.toLowerCase().includes(e.target.value.toLowerCase())
+      value.name.toLowerCase().includes(e.target.value.toLowerCase())
     );
     setLists(newData);
   };

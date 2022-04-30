@@ -34,6 +34,7 @@ const WrapperMock = styled.div`
 `;
 const Icons = styled.img`
   width: 35x;
+  cursor: pointer;
   height: 30px;
 `;
 const Title = styled.p`
@@ -42,8 +43,13 @@ const Title = styled.p`
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  cursor: pointer;
   margin-left: 40px;
   color: #ffffff;
+  :hover {
+    font-size: 16px;
+    font-weight: 500;
+  }
 `;
 const Border = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -70,6 +76,11 @@ const SecondWrapper = styled.div`
 const NextIcons = styled.img`
   width: 35x;
   height: 30px;
+  cursor: pointer;
+  :hover {
+    width: 50px;
+    height: 50px;
+  }
 `;
 const NextTitles = styled.p`
   font-family: "Roboto";
@@ -78,7 +89,12 @@ const NextTitles = styled.p`
   font-size: 14px;
   line-height: 20px;
   margin-left: 40px;
+  cursor: pointer;
   color: #ffffff;
+  :hover {
+    font-size: 16px;
+    font-weight: 500;
+  }
 `;
 export {
   NextIcons,
