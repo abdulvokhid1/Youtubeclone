@@ -5,13 +5,16 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Root from "./Root";
 import SearchContext from "./Components/Context/search";
+import ChooseContext from "./Components/Context/Choose";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SearchContext>
-      <Root />
-    </SearchContext>
+    <ChooseContext>
+      <SearchContext>
+        <Root />
+      </SearchContext>
+    </ChooseContext>
   </React.StrictMode>
 );
 

@@ -24,7 +24,7 @@ export const Sidebar = () => {
       </Wrapper>
       {list.map((value) => {
         return (
-          <WrapperMock>
+          <WrapperMock key={value.id}>
             <Icons src={value.icon} />
             <Title>{value.title}</Title>
           </WrapperMock>
@@ -34,7 +34,7 @@ export const Sidebar = () => {
       <Word>ABONELİKLER</Word>
       {imglist.map((value) => {
         return (
-          <SecondWrapper>
+          <SecondWrapper key={value.id}>
             <NextIcons src={value.img} />
             <NextTitles>{value.title}</NextTitles>
           </SecondWrapper>
