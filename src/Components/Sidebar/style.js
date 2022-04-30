@@ -46,10 +46,6 @@ const Title = styled.p`
   cursor: pointer;
   margin-left: 40px;
   color: #ffffff;
-  :hover {
-    font-size: 16px;
-    font-weight: 500;
-  }
 `;
 const Border = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -77,10 +73,6 @@ const NextIcons = styled.img`
   width: 35x;
   height: 30px;
   cursor: pointer;
-  :hover {
-    width: 50px;
-    height: 50px;
-  }
 `;
 const NextTitles = styled.p`
   font-family: "Roboto";
