@@ -4,6 +4,7 @@ import { dataBtn } from "../../mock/btn";
 import { navpart } from "../../mock/navbar";
 import { ChooseCreateContext } from "../Context/Choose";
 import { MovieCreateContex } from "../Context/search";
+// import { NavLink } from "react-router-dom";
 import {
   Button,
   Container,
